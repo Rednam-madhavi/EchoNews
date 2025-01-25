@@ -16,7 +16,7 @@ export class NewsItem extends Component {
 
                         <span className="badge rounded-pill bg-danger"> {source} </span>
                     </div>
-                    <img src={!imageUrl ? "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuxmfe1Fs_Yb-dFoTE5rw6sJUyNB9JJpM6Ww&s" : imageUrl} className="card-img-top" alt="..." />
+                    <img src={!imageUrl ? "https://salonlfc.com/wp-content/uploads/2018/01/image-not-found-scaled.png" : imageUrl} className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">{title}  </h5>
                         <p className="card-text">{description}</p>
