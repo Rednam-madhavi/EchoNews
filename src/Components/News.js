@@ -38,7 +38,7 @@ export class News extends Component {
             this.props.setProgress(10);
             this.setState({ loading: true });
 
-            const apiKey = process.env.NEWS_API_KEY; 
+            const apiKey = "4567141b025d422fb54040a4b8602039"; 
             const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${apiKey}&page=${page}&pageSize=${this.props.pageSize}`;
 
             let response = await fetch(url);
